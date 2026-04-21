@@ -11,7 +11,7 @@ import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice.js'
 
-export const ServerUrl="http://localhost:8000"
+export const ServerUrl="https://ai-interview-1-1dhe.onrender.com"
 
 function App() {
   const dispatch=useDispatch();
